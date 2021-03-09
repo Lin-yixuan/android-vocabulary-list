@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Final Demo</string>
+    <string name="text_Word">word</string>
+    <string name="text_PartOfSpeech">part of speech</string>
+    <string name="text_Level">Level</string>
+    <string name="text_Add">Add</string>
+    <string name="text_Easy">easy</string>
+    <string name="text_Mid">mid</string>
+    <string name="text_Difficult">difficult</string>
+    <string name="text_backgroundMusic">background Music</string>
+
+
+    <string name="pref_music_label">Background Music</string>
+    <string name="pref_music_label_music1">music1</string>
+    <string name="pref_music_label_music2">music2</string>
+    <string name="pref_music_label_music3">No BGM</string>
+    <string name="pref_music_key" translatable="false">music</string>
+    <string name="pref_music_music1_value" translatable="false">music1</string>
+    <string name="pref_music_music2_value" translatable="false">music2</string>
+    <string name="pref_music_music3_value" translatable="false">No BGM</string>
+
+</resources>

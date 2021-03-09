@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_music_option_labels">
+        <item>@string/pref_music_label_music1</item>
+        <item>@string/pref_music_label_music2</item>
+        <item>@string/pref_music_label_music3</item>
+    </array>
+
+    <array name="pref_music_option_values">
+        <item>@string/pref_music_music1_value</item>
+        <item>@string/pref_music_music2_value</item>
+        <item>@string/pref_music_music3_value</item>
+    </array>
+
+</resources>

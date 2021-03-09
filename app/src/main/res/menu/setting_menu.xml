@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_barAdd"
+        android:icon="@drawable/ic_insert"
+        android:title="@string/text_Add"
+        app:showAsAction="always"
+        android:onClick="onClickAddActionBar"/>
+
+    <item
+        android:id="@+id/action_barChangeSort"
+        android:icon="@drawable/ic_sort"
+        android:title="Sort"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_barSetting"
+        android:icon="@drawable/ic_setting"
+        android:title="Setting"
+        app:showAsAction="always"
+        android:onClick="onClickSettingActionBar"/>
+
+</menu>

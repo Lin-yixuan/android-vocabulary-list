@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnswerActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvAnswerDefinition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbAnswerDefinition1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAnswerClick"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:singleLine="false"
+            android:gravity="top"/>
+
+        <RadioButton
+            android:id="@+id/rbAnswerDefinition2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAnswerClick"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="false"
+            android:gravity="top"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_gravity="right"
+        android:text="Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckAnswerClick"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>
