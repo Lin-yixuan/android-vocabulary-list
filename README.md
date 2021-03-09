@@ -15,4 +15,4 @@
 
 ## 成果展示
 
-<img src="demo.jpg"/>
+<img src="demo.png"/>
